@@ -1,14 +1,10 @@
-# programacao1
-
-(ainda estou fazendo)
-
 //Matricula: 2021101661. gcc aula-2022-05-27.c -o aula.e 
 
 //Inicio da atividade
 
 int main(int argc, char** argv) {
    
-   float seg ter ter2 qua qua2 qui sex sex2 TOTAL;
+   float seg, ter, ter2, qua, qua2, qui, sex, sex2, TOTAL;
    
    printf("Informe o deposito da segunda feira");
    scanf("%f",&seg);
@@ -46,3 +42,17 @@ int main(int argc, char** argv) {
    else if(TOTAL) {
         printf("Este é teu saldo arrecadado está semana:%f",TOTAL\n");
     } 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+    return (EXIT_SUCCESS);
+}
