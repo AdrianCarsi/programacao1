@@ -1,0 +1,124 @@
+#include <stdio.h>
+
+int main() {
+    float recebido, pagamentos, soma, auxilio;
+    recebido = 0;
+    pagamentos = 0;
+    soma = 0;
+
+    // Segunda-Feira:
+    printf("Digite o valor recebido na segunda-feira: ");
+    scanf("%f", &auxilio);
+    recebido += auxilio;
+    printf("Digite o valor pago na segunda-feira: ");
+    scanf("%f", &auxilio);
+    pagamentos += auxilio;
+    // soma:
+    soma = recebido - pagamentos;
+    printf("[Valor do caixa atual: R$ %.2f]\n", soma);
+    // avisos:
+    if (soma > 2000) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    } else if (soma < -500) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    }
+    
+    // Terça-Feira:
+    printf("Digite o valor recebido na terça-feira: ");
+    scanf("%f", &auxilio);
+    recebido += auxilio;
+    printf("Digite o valor pago na terça-feira: ");
+    scanf("%f", &auxilio);
+    pagamentos += auxilio;
+    // soma:
+    soma = recebido - pagamentos;
+    printf("[Valor do caixa atual: R$ %.2f]\n", soma);
+    // avisos:
+    if (soma > 2000) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    } else if (soma < -500) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    }
+    
+    // Quarta-Feira:
+    printf("Digite o valor recebido na quarta-feira: ");
+    scanf("%f", &auxilio);
+    recebido += auxilio;
+    printf("Digite o valor pago na quarta-feira: ");
+    scanf("%f", &auxilio);
+    pagamentos += auxilio;
+    // soma:
+    soma = recebido - pagamentos;
+    printf("[Valor do caixa atual: R$ %.2f]\n", soma);
+    // avisos:
+    if (soma > 2000) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    } else if (soma < -500) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    }
+    
+    // Quinta-Feira:
+    printf("Digite o valor recebido na quinta-feira: ");
+    scanf("%f", &auxilio);
+    recebido += auxilio;
+    printf("Digite o valor pago na quinta-feira: ");
+    scanf("%f", &auxilio);
+    pagamentos += auxilio;
+    // soma:
+    soma = recebido - pagamentos;
+    printf("[Valor do caixa atual: R$ %.2f]\n", soma);
+    // avisos:
+    if (soma > 2000) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    } else if (soma < -500) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    }
+    
+    // Sexta-Feira:
+    printf("Digite o valor recebido na sexta-feira: ");
+    scanf("%f", &auxilio);
+    recebido += auxilio;
+    printf("Digite o valor pago na sexta-feira: ");
+    scanf("%f", &auxilio);
+    pagamentos += auxilio;
+    // soma:
+    soma = recebido - pagamentos;
+    printf("[Valor do caixa atual: R$ %.2f]\n", soma);
+    // avisos:
+    if (soma > 2000) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    } else if (soma < -500) {
+        printf("AVISO:\n");
+        printf("  Total de dinheiro recebido: R$ %.2f\n", recebido);
+        printf("  Total de pagamentos realizados: R$ %.2f\n", pagamentos);
+        printf("  Saldo atual: R$ %.2f\n", soma);
+    }
+    
+}
