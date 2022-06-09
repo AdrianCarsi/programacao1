@@ -60,7 +60,8 @@ int main() {
 }
     
 d)
-[caractere digitado: "B"] ( não entendi a pergunta)
+char c1=B;
+printf("caractere digitado: %c",c1);
  
 5.
     
