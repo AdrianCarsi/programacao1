@@ -91,6 +91,29 @@ char meuCaractere = 'D';
 int main() {
 int x = 10;
 int y = 5;
-printf("%i", "x * y", x , y);
+printf("%i", x*y);
 return 0;
     }
+
+9.
+    
+a)
+int x = 10;
+printf("x:%i", x);
+printf("x:%i", x+1);
+//saída desejada: 10 11
+
+b)
+int x = 10;
+printf("x:%i", x+1);
+printf("x:%i", x+1);
+//saída desejada: 11 11
+
+c)
+int x = 10;
+printf("x:%i", x+1);
+printf("x:%i", x+2);
+//saída desejada: 11 12
+
+10.
+    
