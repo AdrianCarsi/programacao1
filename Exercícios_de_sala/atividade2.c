@@ -17,7 +17,7 @@ printf("%i", meuNumero);
  
 b)
 char meuCaractere = 'D';
-printf("%s", meuCaractere);
+printf("%c", meuCaractere);
 
 c)
 float meuDecimal = 1.3;
@@ -29,8 +29,8 @@ char meuCaractere = 'D';
 float meuDecimal = 1.3;
 printf("%i , %f\n", meuNumero, meuDecimal);
 printf("%f , %f\n", meuDecimal, meuDecimal);
-printf("%f , %s\n , %i\n", meuCaractere, meuDecimal, meuNumero);
-printf("%i , %s\n , %f\n , %i\n ", meuNumero, meuCaractere, meuDecimal, meuNumero);
+printf("%c , %s\n , %i\n", meuCaractere, meuDecimal, meuNumero);
+printf("%i , %c\n , %f\n , %i\n ", meuNumero, meuCaractere, meuDecimal, meuNumero);
 
 4. a) int main() {
    int n4, n9, soma;
@@ -53,13 +53,9 @@ b)
 
 c)
 int main() {
-   float n1, n2, s, p;
-   n1=22.6770;
-   n2=1.3229;
-   p=n1*n2;
-   s= n1+n2;
-   printf("SOMA É: %f", s);
-   printf("O PRODUTO É: %f", p);
+  char c1=A, c2=B;
+    int n1=24, n2=30
+        printf("Opção %c: %d, Opção %c: %d", c1, n1, c2, n2);
    return 0;
 }
     
