@@ -10,11 +10,13 @@ de 501 a 1000    30% do valor do saldo médio
 de 1001 a 3000   40% do valor do saldo médio
 acima de 3001    50% do valor do saldo médio
 
-//Não soube fazer com switch, então usei if para não deixar em branco
+//Não soube fazer com switch, então usei if para não deixar em branco ( e mesmo assim deu errado)
 
 #include <stdio.h>
 int main(){
 float s, s1, s2, s3, s4, s5, s6, s7;
+printf("Informe seu saldo:\n");
+scanf("%f", s);
 s1= s+((2*s)/100);
 s2= s+((30*s)/100);
 s3= s2+((2*s2)/100);
@@ -22,8 +24,6 @@ s4= s+((40*s)/100);
 s5= s4+((2*s4)/100);
 s6= s+((50*s)/100);
 s7= s6+((2*s6)/100);
-printf("Informe seu saldo:\n");
-scanf("%f", s);
  if(s <= 500) {
 printf("Seu saldo é: %f", s1);
 }
