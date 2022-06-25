@@ -72,7 +72,7 @@ for(VOLTA=1; VOLTA==5; TV++){
 if(T1<T2){
     printf("Estudante 1 ganhou");
 }
-if(T1=T2){
+if(T1==T2){
     printf("Estudante 1 e Estudante 2 empataram");
 }
 else{
