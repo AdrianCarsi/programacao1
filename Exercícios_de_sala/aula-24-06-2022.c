@@ -61,12 +61,12 @@ int main(){
 float T1=0, T2=0, VOLTA, TV;   
 for(VOLTA=1; VOLTA==5; TV++){
     printf("Digite o tempo:\n");
-    scanf("%d",VOLTA);
+    scanf("%f",VOLTA);
     T1=T1+TV;
 }
 for(VOLTA=1; VOLTA==5; TV++){
  printf("Digite o tempo:\n");
-    scanf("%d",VOLTA);
+    scanf("%f",VOLTA);
     T2=T2+TV;
 }
 if(T1<T2){
