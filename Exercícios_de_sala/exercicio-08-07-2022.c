@@ -132,3 +132,15 @@ printf("]");
     return 0;
 }
    
+#include <stdio.h>
+
+int main(){
+int VET[20],n;
+printf("[");
+for(n=0;n<20;n++){
+    VET[n]=2*n;
+    printf("%d ",VET[n]);
+}
+printf("]");
+    return 0;
+}
