@@ -16,3 +16,16 @@ int main()
             }
     return 0;
 }
+
+#include <stdio.h>
+
+void qualquer_um(int p){
+    printf("Oi mundo: %d\n",p);
+}
+
+int main(){
+    qualquer_um(93);
+    qualquer_um(93);
+    qualquer_um(93);
+}
+  
