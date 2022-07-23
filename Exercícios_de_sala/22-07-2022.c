@@ -51,3 +51,23 @@ int main(){
     printf("Nome:%s\nIdade:%d\nNota:%2.f\n",aluno.nome,aluno.idade,aluno.nota);
     return 0;
 }
+
+#include <stdio.h>
+
+typedef struct {
+        char nome[20];
+        int idade;
+        float nota;
+}tipo_aluno;
+
+int main(){
+    tipo_aluno aluno[3];
+    printf("Digite seu nome: ");
+    scanf("%s",aluno[0].nome);
+    printf("Digite sua idade: ");
+    scanf("%d",&aluno[0].idade);
+    printf("Digite sua notinha: ");
+    scanf("%f",&aluno[0].nota);
+    printf("Nome:%s\nIdade:%d\nNota:%2.f\n",aluno[0].nome,aluno[0].idade,aluno[0].nota);
+    return 0;
+}
