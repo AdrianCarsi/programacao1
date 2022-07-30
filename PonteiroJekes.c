@@ -132,3 +132,13 @@ int main()
     *num=20;
     printf("%d\n",*num);
 }
+
+#include <stdio.h>
+
+int main()
+{
+    float *num;
+    num=malloc(sizeof(float));
+    *num=20.786;
+    printf("%f\n",*num);
+}
