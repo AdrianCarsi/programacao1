@@ -122,3 +122,13 @@ int main()
 	}
 	LIMPA_TELA;
 }
+
+#include <stdio.h>
+
+int main()
+{
+    int *num;
+    num=malloc(sizeof(int));
+    *num=20;
+    printf("%d\n",*num);
+}
