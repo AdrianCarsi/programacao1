@@ -142,3 +142,27 @@ int main()
     *num=20.786;
     printf("%f\n",*num);
 }
+
+#include <stdio.h>
+
+int main()
+{
+    int *idade;
+    idade=malloc(sizeof(int));
+    printf("Digite sua idade: ");
+    scanf("%d",idade);
+    printf("%d anos",*idade);
+}
+
+#include <stdio.h>
+
+int main()
+{
+    int *idade;
+    idade=malloc(sizeof(int));
+    printf("Digite sua idade: ");
+    scanf("%d", idade);
+    printf("Endereço:%p\n",idade);
+    printf("%d anos",*idade);
+}
+
